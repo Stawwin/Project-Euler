@@ -1,0 +1,6 @@
+$ java -jar euler-160-factorial-trailing-digits.jar 9
+36288
+$ java -jar euler-160-factorial-trailing-digits.jar 10
+36288
+$ java -jar euler-160-factorial-trailing-digits.jar 15
+74368

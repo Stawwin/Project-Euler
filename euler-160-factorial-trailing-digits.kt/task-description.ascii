@@ -1,0 +1,42 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 160
+
+****
+Euler problem 160: https://projecteuler.net/problem=160[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Kotlin
+
+.TASK
+****
+Assume a single command-line argument, a non-negative integer $n$.
+
+Write a go script named `euler-160-factorial-trailing-digits.kt` which writes the last 5 non-zero digits of n! to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ kotlinc euler-160-factorial-trailing-digit.kt -include-runtime -d euler-160-factorial-trailing-digit.jar
+$ java -jar euler-160-factorial-trailing-digit.jar 10
+----
+
+.Example standard output
+----
+362880
+----
+
+.Explanation
+****
+10! = 3628800, so the last 5 non-zero digits are 36288.
+****

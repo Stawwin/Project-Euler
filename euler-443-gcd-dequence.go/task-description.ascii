@@ -1,0 +1,40 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 443
+
+****
+Euler problem 443: https://projecteuler.net/problem=443[].
+****
+
+// //////////////////////////////////////////////////////////////
+== go
+
+.TASK
+****
+Let g(n) be a sequence defined as follows:
+g(4) = 13
+g(n) = g(n-1) + gcd(n,g(n-1)) for n >4
+
+It is given thhat g(1000) = 2524 and g(1000000) = 2624152
+
+Find g(10^15).
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ go run euler-443-gcd-dequence.go 1000
+----
+
+.Example standard output
+----
+2524
+----

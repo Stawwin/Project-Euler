@@ -1,0 +1,6 @@
+$ java -jar euler-145-reversible-numbers.jar 100
+20
+$ java -jar euler-145-reversible-numbers.jar 1000000
+18720
+$ java -jar euler-145-reversible-numbers.jar 1000000000
+608720

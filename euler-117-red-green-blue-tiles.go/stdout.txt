@@ -1,0 +1,6 @@
+$ go run euler-117-red-green-blue-tiles.go 0
+0
+$ go run euler-117-red-green-blue-tiles.go 5
+15
+$ go run euler-117-red-green-blue-tiles.go 25
+7555935

@@ -1,0 +1,10 @@
+$ go run euler-160-factorial-trailing-digits.go 5
+12
+$ go run euler-160-factorial-trailing-digits.go 10
+36288
+$ go run euler-160-factorial-trailing-digits.go 15
+74368
+$ go run euler-160-factorial-trailing-digits.go 20
+17664
+$ go run euler-160-factorial-trailing-digits.go 25
+85984

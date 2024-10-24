@@ -1,0 +1,5 @@
+$ java -jar euler-443-gcd-dequence.jar 1000
+2524
+$ java -jar euler-443-gcd-dequence.jar 1000000
+2624152
+

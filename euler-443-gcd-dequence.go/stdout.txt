@@ -1,0 +1,4 @@
+$ go run euler-30-digit-fifth-powers.go 1000
+2524
+$ go run euler-30-digit-fifth-powers.go 1000000
+2624152

@@ -1,0 +1,49 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 145
+
+****
+Euler problem 145: https://projecteuler.net/problem=145[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Haskell
+
+.TASK
+****
+Some positive integers n have the property that the sum n + reverse(n)
+consists entirely of odd (decimal) digits. For instance, 
+36 + 63 = 99 and 409 + 904 = 1313. 
+We will call such numbers reversible; so 36,63,409 and 904 are reversible.
+ Leading zeroes are not allowed in either n or reverse(n).
+
+There are 120 reversible numbers below one-thousand.
+
+How many reversible numbers are there below one-billion?
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ ghc -o euler-145-factorial-trailing-digits euler-145-factorial-trailing-digits.hs
+$ ./euler-145-reversible-numbers 1000
+----
+
+.Example standard output
+----
+120
+----
+
+.Explanation
+****
+There are 100 numbers EG 36,63,409 and 904 below 1000.
+****
+

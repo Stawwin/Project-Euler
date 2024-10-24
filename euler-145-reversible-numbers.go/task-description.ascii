@@ -1,0 +1,35 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 145
+
+****
+Euler problem 145: https://projecteuler.net/problem=160[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Go
+
+.TASK
+****
+Some positive integers 
+ have the property that the sum n + reverse(n) consists entirely of odd (decimal) digits. For instance, 36 and 63. We will call such numbers reversible; so 36, 63, 409 adn 904 are reversible. Leading zeroes are not allowed in either n or reverse(n).
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ go run euler-145-reversible-numbers.go 1000000000
+----
+
+.Example standard output
+----
+608720
+----

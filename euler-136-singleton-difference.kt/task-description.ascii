@@ -1,0 +1,42 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 136
+
+****
+Euler problem 136: https://projecteuler.net/problem=136[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Kotlin
+
+.TASK
+****
+Assume a single command-line argument, a non-negative integer $n$.
+
+Write a go script named `euler-136-singleton-difference.kt` which writes the number of values $m$ less than $n$ which have exactly one solution to the equation $x^2 - y^2 - z^2 = m$.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ kotlic euler-136-singleton-difference.kt -include-runtime -d euler-136-singleton-difference.jar < /dev/null
+$ java -jar euler-136-singleton-difference.jar 10
+----
+
+.Example standard output
+----
+3
+----
+
+.Explanation
+****
+the values of $m$ which have exactly one solution are $1$, $8$, and $9$.
+****

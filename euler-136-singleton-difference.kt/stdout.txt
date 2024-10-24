@@ -1,0 +1,14 @@
+$ java -jar euler-136-singleton-difference.jar 10
+3
+$ java -jar euler-136-singleton-difference.jar 100
+25
+$ java -jar euler-136-singleton-difference.jar 1000
+158
+$ java -jar euler-136-singleton-difference.jar 10000
+1100
+$ java -jar euler-136-singleton-difference.jar 100000
+8382
+$ java -jar euler-136-singleton-difference.jar 100000
+8382
+$ java -jar euler-136-singleton-difference.jar 50000000
+2544559

@@ -1,0 +1,8 @@
+$ go run euler-145-reversible-numbers.go 100
+20
+
+$ go run euler-145-reversible-numbers.go 1000000
+18720
+
+$ go run euler-145-reversible-numbers.go 1000000000
+608720

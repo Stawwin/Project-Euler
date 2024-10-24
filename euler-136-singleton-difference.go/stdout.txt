@@ -1,0 +1,14 @@
+$ go run euler-136-singleton-difference.go 10
+3
+$ go run euler-136-singleton-difference.go 100
+25
+$ go run euler-136-singleton-difference.go 1000
+158
+$ go run euler-136-singleton-difference.go 10000
+1100
+$ go run euler-136-singleton-difference.go 100000
+8382
+$ go run euler-136-singleton-difference.go 100000
+8382
+$ go run euler-136-singleton-difference.go 50000000
+2544559

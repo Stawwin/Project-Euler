@@ -1,0 +1,60 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 539
+
+****
+Euler problem 539: https://projecteuler.net/problem=539[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Haskell
+
+.TASK
+****
+Start from an ordered list of all integers from 1 to n.
+Going from left to right, remove the first number and 
+every other number afterward until the end of the list.
+Repeat the procedure from right to left,
+removing the right most number and every other number from the numbers left.
+Continue removing every other numbers, alternating left to right and right to left,
+until a single number remains.
+
+starting from n = 9, we have;
+
+123456789
+2468
+26
+6
+
+let P(n) be the last number in the list.
+
+You are given p(1) = 1, P(9) = 6, P(1000) = 510, (sum of all)P(1000) = 268271.
+
+find the sum of all P(10^18) mod 987654321.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ ghc -o euler-539-odd-elimination euler-539-odd-elimination.hs
+$ ./euler-539-odd-elimination 1000
+----
+
+.Example standard output
+----
+510
+----
+
+.Explanation
+****
+Given a List starting with 1000 numbers. By following the procedure,
+the last number remaining will be 510.
+****

@@ -1,0 +1,11 @@
+$ java -jar euler-117-red-green-blue-tiles.jar 0
+0
+
+$ java -jar euler-117-red-green-blue-tiles.jar 5
+15
+
+$ java -jar euler-117-red-green-blue-tiles.jar 25
+7555935
+
+$ java -jar euler-117-red-green-blue-tiles.jar 50
+1281556081
